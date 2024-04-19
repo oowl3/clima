@@ -130,10 +130,9 @@ h1{
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: #2A4355
-  ;
+  background-color: #2A4355;
 }
 
 .bold{
-  font-weight: 700;
+  font-weight: 700; 
 }
