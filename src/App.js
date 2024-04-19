@@ -11,7 +11,7 @@ function App() {
     fondo(); // Llama a fondo() cuando el componente se monta inicialmente
   }, [data]); // Ejecuta fondo() cada vez que data cambie
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=b5def40bd265eb26fe6921b586ccdbc5&units=metric&lang=es`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid={AQUI VA LA LLAVE (KEY)}=es`;
 
   const fondo = () => {
     function obtenerHora() {
